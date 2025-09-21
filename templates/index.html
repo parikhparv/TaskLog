@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TaskLog</title>
+    <link rel="stylesheet" href="static/style.css" />
+  </head>
+  <body>
+    <div id="todo-container">
+
+      <div id="header">
+        <h1>TaskLog</h1>
+      </div>
+
+      <div id="todo-form">
+        <input
+          type="text"
+          class="input-item"
+          name="input_box"
+          id="input-box"
+          placeholder="Add Task"
+        />
+
+        <button id="input-button" onclick="addTask()">Add</button>
+      </div>
+
+      <h2>Task List</h2>
+      <ul id="list-container"></ul>
+    </div>
+
+    <hr />
+    <div class="counter-container">
+      <div id="task-counters">
+        Complete: <span id="complete-counter">0</span> | Incomplete:
+        <span id="incomplete-counter">0</span>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
+
+

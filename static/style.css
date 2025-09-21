@@ -1,0 +1,90 @@
+/* Style for completed tasks */
+.complete {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* General page styling */
+body {
+  background: lightblue;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Container for the to-do list */
+#todo-container {
+  background: rgb(41, 33, 33);
+  width: 400px;
+  margin: 0 auto;
+  border: 2px solid #0033ff;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+}
+
+/* Small header text styling */
+#header {
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Main heading styling */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Input box styling */
+#input-box {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+/* Add task button styling */
+#input-button {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2e60ea;
+}
+
+/* Hover effect for add button */
+#input-button:hover {
+  background-color: #9eb7fd;
+}
+
+/* Task list container (ul) */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align:left;
+
+}
+
+li {
+border: 1px solid white;
+border-radius: 5px;
+margin-bottom: 10px;
+padding: 10px;
+margin-top: 10px;
+}
+
+/* Edit and delete buttons inside tasks */
+.edit-btn, .delete-btn {
+  float: right;
+  color:crimson;
+  cursor: pointer;
+  margin: 3px 5px;
+  border: none;
+  padding: 3px 5px;
+  background: none;
+}
