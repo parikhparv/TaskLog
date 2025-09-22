@@ -1,7 +1,7 @@
 # TaskLog
 
 # About
-TaskMaster is a simple, web-based task management application built with HTML, CSS, and JavaScript. It allows users to add, edit, complete, and delete tasks in an interactive interface. The project was originally created as a final project for Harvard's CS50x, but has been developed into an app that demonstrates core web development concepts.
+TaskLog is a simple, web-based task management application built with HTML, CSS, and JavaScript. It allows users to add, edit, complete, and delete tasks in an interactive interface. The project was originally created as a final project for Harvard's CS50x, but has been developed into an app that demonstrates core web development concepts.
 
 # Features
 
