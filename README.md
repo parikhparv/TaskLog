@@ -9,7 +9,7 @@ TaskMaster is a simple, web-based task management application built with HTML, C
 
 • Mark tasks complete: Toggle tasks as complete or incomplete with a simple click
 
-• Edit tasks: Update tasks using a built-in edit feature.
+• Edit tasks: Update tasks using a built-in edit feature
 
 • Delete tasks: Remove tasks that are no longer needed
 
