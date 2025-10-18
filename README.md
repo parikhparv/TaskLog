@@ -1,26 +1,27 @@
-# TaskLog
+# 📝 TaskLog
 
-# About
-TaskLog is a simple, web-based task management application built with HTML, CSS, and JavaScript. It allows users to add, edit, complete, and delete tasks in an interactive interface. The project was originally created as a final project for Harvard's CS50x, but has been developed into an app that demonstrates core web development concepts.
+## Overview
+**TaskLog** is a lightweight, web-based task management application built with **HTML**, **CSS**, and **JavaScript**.  
+It enables users to easily add, edit, complete, and delete tasks through a clean, interactive interface.
 
-# Features
+Originally created as a **final project for Harvard’s CS50x**, TaskLog has since evolved into a showcase of core front-end development concepts — demonstrating DOM manipulation, event handling, and dynamic UI updates.
 
-• Add tasks: Quickly create new tasks with a single input box and button
+---
 
-• Mark tasks complete: Toggle tasks as complete or incomplete with a simple click
+## ✨ Features
+-  **Add tasks:** Quickly create new tasks using a simple input box and button  
+-  **Mark tasks complete:** Toggle tasks between complete and incomplete with a single click  
+-  **Edit tasks:** Update existing tasks directly from the task list  
+-  **Delete tasks:** Remove tasks you no longer need  
+-  **Task counters:** Track how many tasks are completed vs. remaining  
 
-• Edit tasks: Update tasks using a built-in edit feature
+---
 
-• Delete tasks: Remove tasks that are no longer needed
+## ⚙️ How It Works
+TaskLog is powered entirely by **front-end technologies** — no backend or database required.  
+All interactivity and state management are handled via **vanilla JavaScript** in the browser.
 
-• Task counters: Keep track of completed and uncompleted tasks 
-
-# How It Works
-
-This app is powered entirely by front-end technologies—no backend or database is required. All interactivity is handled with JavaScript:
-
-• index.html: Provides the structure of the app, including the input box, task list, and counters
-
-• style.css: Handles the design, including task styling, colors, and hover effects
-
-• script.js: Contains the functionality for adding, editing, completing, and deleting tasks, as well as updating counters
+**Project Structure:**
+- **`index.html`** – Defines the app’s layout, including the task input area, list, and counters  
+- **`style.css`** – Controls the visual design: colors, spacing, and hover animations  
+- **`script.js`** – Manages all core logic for adding, editing, completing, and deleting tasks, and dynamically updates counters  
